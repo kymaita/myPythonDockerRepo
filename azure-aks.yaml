@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: acrdockerimgsprod001.azurecr.io/akannan1087/mypythondockerrepo:#{Build.BuildId}#
+        image: acrdockerimgsprod001.azurecr.io/kymaita/mypythondockerrepo:#{Build.BuildId}#
         ports:
         - containerPort: 5000
 # service type loadbalancer       
